@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 
 import com.aziz.voyages.entities.Categorie;
 @RepositoryRestResource(path = "cat") 
-@CrossOrigin("http://localhost:4200/") //pour autoriser angular
+@CrossOrigin("http://localhost:4200/") 
 public interface CategorieRepository extends JpaRepository<Categorie, Long>
 {
 }
